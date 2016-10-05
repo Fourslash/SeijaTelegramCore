@@ -1,0 +1,9 @@
+bin/*
+/.vs
+Debug/*
+Release/*
+Commands/*.json
+src/SeijaTelegramNetCore/Commands/*.json
+src/SeijaTelegramNetCore/bin/
+src/SeijaTelegramNetCore/files/
+src/SeijaTelegramNetCore/project.lock.json/
