@@ -49,7 +49,7 @@ namespace SeijaTelegram.Commands
         {
             try
             {
-                var json = System.IO.File.ReadAllText(string.Format(@".\commands\{0}.json", name));
+                var json = System.IO.File.ReadAllText(string.Format(@"./commands/{0}.json", name));
                 JsonConvert.PopulateObject(json, this);
                 
             }
